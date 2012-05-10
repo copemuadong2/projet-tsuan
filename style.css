@@ -1,0 +1,144 @@
+body{
+	margin:0px;
+	background-color:#777777;
+	padding:0px;
+}
+#wrapper{
+	width: 960px;
+	margin:auto;
+	border-radius:4px;
+}
+header{
+	height: 100px;
+	background-color:green;
+	oveflow:hidden;
+}
+@font-face {
+   font-family: 'Top Secret';
+   src:url('[TOP_SECRET].ttf');
+}
+
+header>h1{
+	color:#fff;
+	position:absolute;
+	margin-left:20px;
+	line-height:43px;
+	font-family:Top Secret;
+	font-size:3.5em;
+	text-transform:uppercase;
+	text-shadow: 0px 2px 3px #555;
+}
+article{
+	background-color:#fff;
+	width: 960px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#content{
+	width:960px;
+	min-height:400px;
+	font-size:20px;
+}
+#grande_image{
+	height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 440px;
+	float:left;
+
+}
+#content #grande_image img{
+	margin-top:20px;
+	width:430px;
+}
+
+#content>#liste_titre{
+	width:400px;
+	position:relative;
+	float:right;
+	margin-right:80px;
+}
+
+#content>#liste_titre>ul>li{
+	color:green;
+	list-style:square
+}
+#content>#liste_titre>ul>li>a{
+	text-decoration:none;
+	color:#EF6B5F;
+	cursor:pointer;
+	cursor:hand
+}
+#content>#liste_titre>ul>li>a:hover{
+	color:#00AA92;
+}
+article>h2{
+	margin-left:20px;
+	color:#EF6B5F;
+	font-family: Quicksand,sans-serif;
+}
+#liste_image{
+	width:920px;
+	height:70px;
+	margin-left:20px;
+}
+#liste_image>.image{
+	width:50px; 
+	height:50px;
+	margin-right:10px;
+	float:left;
+	position:relative;
+}
+#liste_image>.image>a>img{
+	width:50px; 
+	height:50px;
+}
+footer{
+	height: 50px;
+	background-color:green;
+	clear:both;
+}
+footer>p{
+	bottom: -27px;
+    position: relative;
+	color:#fff;
+	font-size: 14px;
+    left: 5px;
+}
+#tooltip {
+	position:absolute;
+	z-index:15;
+	color:#fff;
+	font-size:15px;
+	width:480px;
+
+}
+.tipBody {
+	position:absolute;
+	padding:5px 5px 5px 15px;
+	background: #C81E2B;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F04349), to(#C81E2B));
+	background: -moz-linear-gradient(#F04349, #C81E2B);
+	background: -o-linear-gradient(#F04349, #C81E2B);
+	background: linear-gradient(#F04349, #C81E2B);
+	
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	
+	border-radius: 10px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	color:#fff;
+	width:500px;
+	z-index:15;
+
+}
+#tooltip  img{
+	width:580px;
+	position:relative;
+	left:-15px;
+}
